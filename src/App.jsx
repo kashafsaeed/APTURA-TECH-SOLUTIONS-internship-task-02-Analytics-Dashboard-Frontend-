@@ -2,7 +2,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import Sidebar from "./components/Sidebar";
-// import Dashboard from "./pages/Dashboard";
+import Dashboard from "./pages/Dashboard";
 import Users from "./pages/Users";
 import Profile from "./pages/Profile";
 import Notifications from "./components/Notifications";
@@ -23,7 +23,7 @@ function App() {
         element={
           <>
             <Sidebar />
-            {/* <Dashboard /> */}
+            { <Dashboard /> }
           </>
         }
       />
