@@ -79,9 +79,6 @@ npm run dev
 
 The application supports both **Light** and **Dark** themes using Redux Toolkit.
 
-## 📸 Screenshots
-
-Add your project screenshots here.
 
 ## 👨‍💻 Developer
 
@@ -92,3 +89,6 @@ Frontend Developer
 ## 📄 License
 
 This project was created for learning and internship purposes.
+
+
+# 
