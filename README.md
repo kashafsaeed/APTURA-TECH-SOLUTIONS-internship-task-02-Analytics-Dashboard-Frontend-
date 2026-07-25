@@ -1,231 +1,94 @@
 # 🚀 APTURA Analytics Dashboard
 
-A modern and responsive **Admin Analytics Dashboard** built using **React.js, Redux Toolkit, Tailwind CSS, and Vite**.
-
-This project demonstrates modern frontend development practices including authentication, state management, responsive design, analytics charts, user management, and dark mode functionality.
-
----
+A modern and responsive Admin Analytics Dashboard built with **React.js**, **Redux Toolkit**, **Tailwind CSS**, and **Vite**.
 
 ## ✨ Features
 
-## 🔐 Authentication
-
-- User Signup
-- User Login
-- Logout Functionality
-- Redux Authentication State Management
-- Local Storage Data Persistence
-
-
-## 📊 Dashboard Analytics
-
-- Statistics Cards
-- Revenue Analytics Chart
-- Traffic Source Pie Chart
-- Recent Orders Table
-- Top Products Section
-
-
-## 👥 User Management
-
-- Registered Users Table
-- User Profile Management
-- Dynamic User Data Display
-
-
-## 🔔 Notification System
-
+- Authentication (Login & Signup)
+- Responsive Sidebar
+- Dashboard Overview
+- User Management
+- Interactive Charts
 - Notification Panel
-- Notification Dropdown
-- User Notifications
+- Profile Management
+- Dark / Light Theme
+- Redux Toolkit State Management
+- Responsive Design
 
+## 🛠️ Tech Stack
 
-## 🌙 Theme System
+- React.js
+- Redux Toolkit
+- React Router DOM
+- Tailwind CSS
+- Vite
+- Recharts
+- Lucide React
 
-- Light Mode
-- Dark Mode
-- Redux Theme Management
+## 📁 Folder Structure
 
+```text
+src
+├── components
+│   ├── Sidebar
+│   ├── Navbar
+│   ├── StatsCard
+│   ├── UserTable
+│   ├── NotificationPanel
+│   └── Charts
+├── pages
+│   ├── Login
+│   ├── Signup
+│   ├── Dashboard
+│   ├── Users
+│   └── Profile
+├── redux
+│   ├── authSlice.js
+│   ├── themeSlice.js
+│   ├── notificationSlice.js
+│   ├── uiSlice.js
+│   └── store.js
+├── App.jsx
+└── main.jsx
+```
+
+## 🚀 Installation
+
+```bash
+git clone <repository-url>
+cd aptura-dashboard
+npm install
+npm run dev
+```
+
+## ⚡ Performance Optimization
+
+- Reusable Components
+- Redux Toolkit
+- Component-Based Architecture
+- Responsive Layout
+- Optimized Rendering
 
 ## 📱 Responsive Design
-
-Fully responsive for:
 
 - Desktop
 - Tablet
 - Mobile
 
-Includes:
+## 🌙 Theme Switching
 
-- Responsive Sidebar
-- Mobile Navigation
-- Responsive Cards
-- Responsive Tables
+The application supports both **Light** and **Dark** themes using Redux Toolkit.
 
+## 📸 Screenshots
 
----
+Add your project screenshots here.
 
-# 🛠 Technologies Used
-
-| Technology | Purpose |
-|---|---|
-| React.js | Frontend Framework |
-| Redux Toolkit | State Management |
-| React Router DOM | Routing |
-| Tailwind CSS | Styling |
-| Recharts | Data Visualization |
-| Lucide React | Icons |
-| Vite | Development Tool |
-| Local Storage | Data Storage |
-
-
----
-
-# 📂 Project Structure
-
-```text
-src
-│
-├── components
-│   ├── Sidebar.jsx
-│   ├── Navbar.jsx
-│   ├── StatsCard.jsx
-│   ├── RevenueChart.jsx
-│   ├── PieChartComponent.jsx
-│   ├── RecentOrders.jsx
-│   ├── TopProducts.jsx
-│   └── NotificationPanel.jsx
-│
-├── pages
-│   ├── Dashboard.jsx
-│   ├── Login.jsx
-│   ├── Signup.jsx
-│   ├── Users.jsx
-│   ├── Profile.jsx
-│   └── Notifications.jsx
-│
-├── redux
-│   ├── authSlice.jsx
-│   ├── themeSlice.jsx
-│   └── store.js
-│
-├── App.jsx
-├── main.jsx
-└── index.css
-```
-
----
-
-# 🚀 Installation & Setup
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/APTURA-Analytics-Dashboard.git
-```
-
-Go into project folder:
-
-```bash
-cd APTURA-Analytics-Dashboard
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run development server:
-
-```bash
-npm run dev
-```
-
----
-
-# 🔑 Authentication Flow
-
-### Signup
-
-- User enters registration details.
-- User data is stored in Local Storage.
-- Redux updates authentication state.
-
-### Login
-
-- User credentials are verified.
-- User information is stored in Redux.
-- Dashboard access is provided.
-
-### Logout
-
-- Authentication state is cleared.
-- User session is removed.
-
----
-
-# 📸 Screenshots
-
-## Login Page
-
-![Login](screenshots/login.png)
-
-
-## Signup Page
-
-![Signup](screenshots/signup.png)
-
-
-## Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-
-## Users Page
-
-![Users](screenshots/users.png)
-
-
-## Profile Page
-
-![Profile](screenshots/profile.png)
-
-
-## Dark Mode
-
-![Dark Mode](screenshots/darkmode.png)
-
-
-## Mobile View
-
-![Mobile](screenshots/mobile.png)
-
-
----
-
-# 🔮 Future Improvements
-
-- Backend API Integration
-- JWT Authentication
-- Database Integration
-- Advanced Search & Filters
-- Pagination
-- Real-Time Notifications
-- Export Reports
-
-
----
-
-# 👨‍💻 Developer
+## 👨‍💻 Developer
 
 **Kashaf Saeed**
 
 Frontend Developer
 
+## 📄 License
 
----
-
-# 📄 License
-
-This project was developed for educational and internship purposes.
+This project was created for learning and internship purposes.
